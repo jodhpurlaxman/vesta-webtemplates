@@ -15,7 +15,7 @@ apt-get install php7.0-apcu php7.0-mbstring php7.0-bcmath php7.0-cli php7.0-curl
 update-rc.d php7.0-fpm defaults
 a2enconf php7.0-fpm
 systemctl restart apache2
-cp -r /etc/php/7.0/ /root/vst_install_backups/php7.0/
+#cp -r /etc/php/7.0/ /root/vst_install_backups/php7.0/
 #rm -f /etc/php/7.0/fpm/pool.d/*
 wget https://raw.githubusercontent.com/jodhpurlaxman/vesta-webtemplates/main/PHP-70/PHP-FPM-70-DEFAULT.tpl -O /usr/local/vesta/data/templates/web/apache2/PHP-FPM-70-DEFAULT.tpl
 wget https://raw.githubusercontent.com/jodhpurlaxman/vesta-webtemplates/main/PHP-70/PHP-FPM-70-DEFAULT.stpl -O /usr/local/vesta/data/templates/web/apache2/PHP-FPM-70-DEFAULT.stpl
@@ -33,7 +33,7 @@ apt-get install php7.1-apcu php7.1-mbstring php7.1-bcmath php7.1-cli php7.1-curl
 update-rc.d php7.1-fpm defaults
 a2enconf php7.1-fpm
 systemctl restart apache2
-cp -r /etc/php/7.1/ /root/vst_install_backups/php7.1/
+#cp -r /etc/php/7.1/ /root/vst_install_backups/php7.1/
 #rm -f /etc/php/7.1/fpm/pool.d/*
 wget https://raw.githubusercontent.com/jodhpurlaxman/vesta-webtemplates/main/PHP-71/PHP-FPM-71-DEFAULT.tpl -O /usr/local/vesta/data/templates/web/apache2/PHP-FPM-71-DEFAULT.tpl
 wget https://raw.githubusercontent.com/jodhpurlaxman/vesta-webtemplates/main/PHP-71/PHP-FPM-71-DEFAULT.stpl -O /usr/local/vesta/data/templates/web/apache2/PHP-FPM-71-DEFAULT.stpl
@@ -47,12 +47,11 @@ wget https://raw.githubusercontent.com/jodhpurlaxman/vesta-webtemplates/main/PHP
 wget https://raw.githubusercontent.com/jodhpurlaxman/vesta-webtemplates/main/PHP-71/PHP-FPM-71-DEFAULT.sh -O /usr/local/vesta/data/templates/web/apache2/PHP-FPM-71-DEFAULT.sh
 chmod a+x /usr/local/vesta/data/templates/web/apache2/PHP-FPM-71-*.sh
 
-
 apt-get install php7.2-apcu php7.2-mbstring php7.2-bcmath php7.2-cli php7.2-curl php7.2-fpm php7.2-gd php7.2-intl php7.2-mysql php7.2-soap php7.2-xml php7.2-zip php7.2-memcache php7.2-memcached php7.2-zip
 update-rc.d php7.2-fpm defaults
 a2enconf php7.2-fpm
 systemctl restart apache2
-cp -r /etc/php/7.2/ /root/vst_install_backups/php7.2/
+#cp -r /etc/php/7.2/ /root/vst_install_backups/php7.2/
 #rm -f /etc/php/7.2/fpm/pool.d/*
 wget https://raw.githubusercontent.com/jodhpurlaxman/vesta-webtemplates/main/PHP-72/PHP-FPM-72-DEFAULT.tpl -O /usr/local/vesta/data/templates/web/apache2/PHP-FPM-72-DEFAULT.tpl
 wget https://raw.githubusercontent.com/jodhpurlaxman/vesta-webtemplates/main/PHP-72/PHP-FPM-72-DEFAULT.stpl -O /usr/local/vesta/data/templates/web/apache2/PHP-FPM-72-DEFAULT.stpl
@@ -70,7 +69,7 @@ apt-get install php7.3-apcu php7.3-mbstring php7.3-bcmath php7.3-cli php7.3-curl
 update-rc.d php7.3-fpm defaults
 a2enconf php7.3-fpm
 systemctl restart apache2
-cp -r /etc/php/7.3/ /root/vst_install_backups/php7.3/
+#cp -r /etc/php/7.3/ /root/vst_install_backups/php7.3/
 #rm -f /etc/php/7.3/fpm/pool.d/*
 wget https://raw.githubusercontent.com/jodhpurlaxman/vesta-webtemplates/main/PHP-73/PHP-FPM-73-DEFAULT.tpl -O /usr/local/vesta/data/templates/web/apache2/PHP-FPM-73-DEFAULT.tpl
 wget https://raw.githubusercontent.com/jodhpurlaxman/vesta-webtemplates/main/PHP-73/PHP-FPM-73-DEFAULT.stpl -O /usr/local/vesta/data/templates/web/apache2/PHP-FPM-73-DEFAULT.stpl
@@ -88,7 +87,7 @@ apt-get install php7.4-apcu php7.4-mbstring php7.4-bcmath php7.4-cli php7.4-curl
 update-rc.d php7.4-fpm defaults
 a2enconf php7.4-fpm
 systemctl restart apache2
-cp -r /etc/php/7.4/ /root/vst_install_backups/php7.4/
+#cp -r /etc/php/7.4/ /root/vst_install_backups/php7.4/
 #rm -f /etc/php/7.4/fpm/pool.d/*
 wget https://raw.githubusercontent.com/jodhpurlaxman/vesta-webtemplates/main/PHP-74/PHP-FPM-74-DEFAULT.tpl -O /usr/local/vesta/data/templates/web/apache2/PHP-FPM-74-DEFAULT.tpl
 wget https://raw.githubusercontent.com/jodhpurlaxman/vesta-webtemplates/main/PHP-74/PHP-FPM-74-DEFAULT.stpl -O /usr/local/vesta/data/templates/web/apache2/PHP-FPM-74-DEFAULT.stpl
